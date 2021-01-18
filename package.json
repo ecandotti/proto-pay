@@ -1,0 +1,29 @@
+{
+  "name": "proto_pay",
+  "version": "1.0.0",
+  "description": "eshop-ui-ux test",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "author": "Enzo Candotti <enzo.candotti16@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "preact": "^10.5.10"
+  },
+  "devDependencies": {
+    "@prefresh/snowpack": "^3.0.1",
+    "@snowpack/plugin-babel": "^2.1.6",
+    "babel-preset-preact": "^2.0.0",
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "prettier": "^2.2.1",
+    "snowpack": "^3.0.11"
+  },
+  "eslintConfig": {
+    "extends": "preact"
+  }
+}
