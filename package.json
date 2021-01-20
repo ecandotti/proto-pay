@@ -10,7 +10,8 @@
   "author": "Enzo Candotti <enzo.candotti16@hotmail.com>",
   "license": "MIT",
   "dependencies": {
-    "preact": "^10.5.10"
+    "preact": "^10.5.10",
+    "preact-router": "^3.2.1"
   },
   "devDependencies": {
     "@prefresh/snowpack": "^3.0.1",
